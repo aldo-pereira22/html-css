@@ -9,15 +9,29 @@
 
 img{
 
+    border: 2px solid tomato;
+
 }
 
 #bordas{
-    border: 5px dotted #00F;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 20px;
 }
 
 .rodape{
-    background-color: blueviolet;
+    background-color: gray;
+    border-radius: 3px;
     height: 300px;
     text-align: center;
-    color: white;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.div{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid darkgreen;
 }
