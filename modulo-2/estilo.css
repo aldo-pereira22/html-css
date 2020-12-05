@@ -1,0 +1,23 @@
+#titulo {
+    color: white;
+    background-color: tomato;
+}
+
+.texto {
+    color: green;
+}
+
+img{
+
+}
+
+#bordas{
+    border: 5px dotted #00F;
+}
+
+.rodape{
+    background-color: blueviolet;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
