@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulários </title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+
+    <h1>Página de Teste</h1>
+
+    <h2>Área de Cadastro</h2>
+    <form action="paginas/login.html">
+
+        <label for="nome">
+            Nome
+            <input id="nome" type="text">
+        </label> <br> <br>
+
+        <label> E-mail
+            <input type="text" name="email">
+        </label> <br> <br>
+
+        <label for="">
+            Descricão <br>
+            <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+        </label> <br> <br>
+
+
+
+
+
+        <label for="">
+            Categoria <br> <br>
+            <Select name="categoria">
+                <option value="1"> Categoria - 1 </option>
+                <option value="2"> Categoria - 2 </option>
+                <option value="3"> Categoria - 3 </option>
+                <option value="4"> Categoria - 4 </option>
+                <option value="5"> Categoria - 5 </option>
+
+        </label>
+        </Select> <br> <br>
+
+        <label for="">
+            Sexo <br>
+            <input type="radio" name="sexo" value="masculino">  Masculino
+            <input type="radio" name="sexo" value="feminino">   Feminino
+        </label> <br> <br>
+
+        <button>   Fazer Cadastro     </button>
+
+        <label>
+            <input type="checkbox" name="checkbox">
+            Eu declaro que Li e aceito os <a href="paginas/termos.html" class="termoslink" target="_blank"> termos de uso </a>
+        </label> <br> <br>
+    </form>
+
+
+    <h2> Área de Login</h2>
+    <form action="">
+
+    </form>
+</body>
+
+</html>
