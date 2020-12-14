@@ -1,0 +1,8 @@
+
+.exemplo {
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    background:linear-gradient(white, blue,red, yellow);
+}
+
