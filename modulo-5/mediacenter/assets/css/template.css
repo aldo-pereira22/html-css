@@ -183,7 +183,7 @@ background-color: #0079c7;
     font-weight: bold;
 }
 
-.menuM
+
 
 .widget_title_bar {
     width: 50px;
@@ -323,6 +323,23 @@ footer .widget_title_text {
     margin-top: 30px;
 }
 
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+
+.mm_line {
+    height: 4px;
+    background-color: #39aae1;
+}
+
 @media (max-width:600px){
 
 
@@ -375,6 +392,10 @@ footer .widget_title_text {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
     }
 
     header {
@@ -383,5 +404,11 @@ footer .widget_title_text {
 
     .logo {
         padding: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
