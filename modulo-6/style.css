@@ -3,3 +3,7 @@ input {
     height: 50px;
     font-size: 30px;
 }
+
+input::placeholder{
+    color: blue;
+}
